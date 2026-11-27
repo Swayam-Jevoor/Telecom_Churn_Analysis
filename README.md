@@ -89,39 +89,11 @@ The model is good at confirming loyal customers but **misses about 4 in 10 real 
 
 ## What I Added
 
-<!-- Keep only what is true, and add more as you build it -->
 - Documented findings and model limitations (above)
 - Re-ran the model and checked the predictions critically
-- Tuned the model (class weights, hyperparameters) and compared against the baseline
-- Added cross-validation
 
 ---
 
-## Repository Structure
+## Contact
 
-```
-telecom-churn-analysis/
-├── database_creation.sql        # Create database
-├── null_data.sql                # Null check across all columns
-├── data_exploration.sql         # Exploratory SQL queries
-├── cleaned_data.sql             # Cleaned production table
-├── views.sql                    # Views for existing vs. new customers
-├── Churn_Analysis.pbix          # Power BI report
-├── Prediction_Data.xlsx         # Data exported for the ML model
-├── Churn_Predictions.csv        # Model predictions for new customers
-├── notebook/                    # Jupyter notebook (Random Forest)
-├── images/                      # Dashboard screenshots
-└── Data & Resources/            # Dataset and tutorial reference files
-```
-
----
-
-## How to Run
-
-1. Create the database with `database_creation.sql` and import `Customer_Data.csv` as `stg_Churn`.
-2. Run `null_data.sql`, `cleaned_data.sql`, and `views.sql` in order.
-3. Export the two views to `Prediction_Data.xlsx` (sheets `vw_ChurnData` and `vw_JoinData`).
-4. Run the notebook: `pip install pandas numpy matplotlib seaborn scikit-learn joblib openpyxl`
-5. Open `Churn_Analysis.pbix` in Power BI Desktop.
-
----
+**Swayam Jevoor** | [LinkedIn](https://www.linkedin.com/in/swayam-jevoor-905498358) | jevoorswayam095@gmail.com
